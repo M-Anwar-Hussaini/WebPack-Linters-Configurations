@@ -1,0 +1,12 @@
+{
+  "name": "01.-webpack-linters-configurations",
+  "version": "1.0.0",
+  "description": "1. create a folder by the name of `src`. 2. insdie `src` add at least these files: `index.js`, `index.html` and `style.css`. 3. Run the following command to create `package.json` file: ```sh npm init -y ``` 4. Run following command to install webpack: ```sh npm install webpack webpack-cli --save-dev ``` 5.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
