@@ -1,3 +1,5 @@
+# WebPack Configurations:
+
 1. Clone this repository.
 2. Initialize `npm`:
 
@@ -48,4 +50,23 @@ npm run build
 ```sh
 npm start
 ```
-10. 
+
+# Linters Configurations:
+
+1. Install Webhint:
+
+```sh
+npm install --save-dev hint@7.x
+```
+
+2. Install stylelint:
+
+```sh
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
+
+3. Install ESLint:
+
+```sh
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
