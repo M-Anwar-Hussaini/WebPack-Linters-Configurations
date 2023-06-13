@@ -1,37 +1,38 @@
 # WebPack Configurations:
 
-1. Clone this repository.
-2. Initialize `npm`:
+1. Download this repository.
+2. Copy the content of it to your own newly-created repo and run the following commands consecutively.
+3. Initialize `npm`:
 
 ```sh
 npm init -y
 ```
 
-3. Install WebPack
+4. Install WebPack
 
 ```sh
 npm install webpack webpack-cli --save-dev
 ```
 
-4. Install style-loader and css-loader.
+5. Install style-loader and css-loader.
 
 ```sh
 npm install --save-dev style-loader css-loader
 ```
 
-5. install HtmlWebpackPlugin plugin:
+6. install HtmlWebpackPlugin plugin:
 
 ```sh
 npm install --save-dev html-webpack-plugin
 ```
 
-6. Install webpack-dev-server:
+7. Install webpack-dev-server:
 
 ```sh
 npm install --save-dev webpack-dev-server
 ```
 
-7. Go to the `package.json` file and in the script property replace the following code with its previous value:
+8. Go to the `package.json` file and in the script property replace the following code with its previous value:
 
 ```sh
 "test": "echo \"Error: no test specified\" && exit 1",
@@ -39,13 +40,13 @@ npm install --save-dev webpack-dev-server
 "build": "webpack"
 ```
 
-8. Run following command to generate dist directory and its necessary file:
+9. Run following command to generate dist directory and its necessary file:
 
 ```sh
 npm run build
 ```
 
-9. Run following command to run project on the default browser using webpack-dev-server:
+10. Run following command to run project on the default browser using webpack-dev-server:
 
 ```sh
 npm start
